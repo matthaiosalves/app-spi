@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "app-papai",
+    "name": "SPI - Pedidos",
     "slug": "app-papai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#757b83"
+      },
+      "package": "com.matthaiosalves.apppapai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ec387c6-33ad-47e0-b7dd-456bd8ce013e"
+      }
+    },
+    "owner": "matthaiosalves"
   }
 }
